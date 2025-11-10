@@ -19,9 +19,10 @@
 
 #define LED_POWER PIN_LED
 
-// #define BATTERY_PIN 26
+#define BATTERY_PIN 26
 //  ratio of voltage divider = 3.0 (R17=200k, R18=100k)
-// #define ADC_MULTIPLIER 3.1 // 3.0 + a bit for being optimistic
+#define ADC_MULTIPLIER 3.1 // 3.0 + a bit for being optimistic
+#define BATTERY_SENSE_RESOLUTION_BITS ADC_RESOLUTION
 
 #define HAS_CPU_SHUTDOWN 1
 #define USE_SX1262
